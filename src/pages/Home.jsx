@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import { containerStyle, inputStyle, selectStyle, errorStyle, charactersContainerStyle, characterCardStyle, formContainerStyle } from "../assets/styles/styles";
+import { containerStyle, inputStyle, selectStyle, errorStyle, charactersContainerStyle, characterCardStyle, formContainerStyle } from "../assets/Styles/styles.js";
 
 const Home = () => {
   const [characters, setCharacters] = useState([]);

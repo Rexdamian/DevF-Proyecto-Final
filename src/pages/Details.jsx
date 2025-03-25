@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { detailsContainerStyle, characterImageStyle, pageContainerStyle } from "../assets/Styles/styles";
+import { detailsContainerStyle, characterImageStyle, pageContainerStyle } from "../assets/Styles/styles.js";
 
 const Details = () => {
   const { id } = useParams();
